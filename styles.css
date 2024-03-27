@@ -215,6 +215,52 @@ footer{
 }
 
 
+/* INIT TECNOLOGIES */
+
+.tecnologies{
+    display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+   
+}
+
+
+
+h5{
+    font-size: 25px;
+    color: white;
+    font-weight: 600;
+}
+
+.title2{
+
+}
+
+.content2{
+    margin-bottom: 10px;
+    font-size: 20px;
+    
+}
+
+.title-fronted{
+    margin-bottom: 10px;
+}
+
+.skills{
+   padding-top: 20px;
+   padding-bottom: 20px; 
+   width: 70%;
+}
+
+
+
+
+
+
+/* FIN TECNOLOGIES */
+
+
 @media screen and (max-width: 768px) {
     .menu {
         display: none;
