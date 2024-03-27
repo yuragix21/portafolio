@@ -1,0 +1,282 @@
+*{
+    padding: 0;
+    margin: 0;
+    /* background-color: rgb(15, 15, 15); */
+}
+
+header{
+    background-color: rgb(26, 25, 25);
+    padding: 20px;
+}
+
+.menu-toggle {
+    display: none; 
+    background: none;
+    border: none;
+    color: white;
+    font-size: 24px;
+    cursor: pointer;
+}
+
+.menu {
+    list-style-type: none;
+    padding: 20px;
+    margin: 0;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.menu li {
+    margin-right: 15px;
+}
+
+.menu li:last-child {
+    margin-right: 0;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+}
+
+a:hover{
+    color: green;   
+}
+
+ul {
+    display: flex;
+    align-items: center;
+}
+
+
+.aboutmy{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: start;
+    background-color: rgb(26, 25, 25);
+    position: relative;
+   
+}
+
+.my{
+    width: 30vh;
+    border-radius:100px;
+    margin-top: 200px;
+    margin-bottom: 200px;
+    position: relative;
+    right:80px;
+    
+    
+
+    
+}
+
+.text-my{
+    font-size: 20px;
+    color: white;
+    font-weight: 600;
+    margin-top: 200px;
+    margin-bottom: 200px;
+    margin-left: 20px;    
+    position: relative;
+    right: 50px;
+}
+
+
+/*  INIT PROJECTS */
+
+.projects{
+    height: auto;
+    background-color: rgb(26, 25, 25);
+    padding-top: 20px;
+    padding-bottom: 50px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.my-projects{
+    text-align: center;
+    font-size: 30px;
+    background-color: rgb(26, 25, 25);
+    color: white;
+}
+
+.card-body{
+    width: calc(25.33% - 20px);
+    height: 100%;
+    background-color: #D9D9D9;
+    margin: 10px;
+    display: flex;
+    flex-direction: column;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border-radius: 20px;
+    user-select: none;
+}
+
+
+
+.img-card-body{
+    width: 90%;
+    height: 20vh;
+    border-radius: 20px;
+    margin: auto;
+    margin-bottom: 10px;
+}
+
+.title{
+    width: 90%;
+    margin: auto;
+    font-weight: 600;
+    font-size: 20px;
+}
+
+.content{
+    width: 90%;
+    margin: auto;
+    font-weight: 600;
+    font-size: 20px;
+}
+
+.used-tecnologies{
+    width: 90%;
+    margin: auto;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+
+.take-look{
+    width: 90%;
+    height: 5vh;
+    margin: auto;
+    margin-bottom: 10px;
+    border-radius: 10px;
+    background-color: #35E546;
+    color: white;
+    font-size: 15px;
+    font-weight: 600;
+}
+
+.github{
+    height: 70%;
+    margin-right: 10px;
+}
+
+.see-code-2{
+    font-weight: 600;
+    font-size: 15px;
+    color: white;
+}
+
+
+.see-code{
+    width: 90%;
+    height: 5vh;
+    margin: auto;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #454B46;
+}
+
+
+
+
+
+
+
+/* FIN PROJECTS */
+
+
+
+
+
+
+.tecnologies{
+   
+   
+    background-color: blue;
+}
+
+.contanct{
+   
+    
+    background-color: blueviolet;
+}
+
+footer{
+   
+    
+    background-color: brown;
+}
+
+
+@media screen and (max-width: 768px) {
+    .menu {
+        display: none;
+        flex-direction: column;
+        position: absolute;
+        top: 60px;
+        left: 0;
+        background-color: rgb(26, 25, 25);
+        width: 100%;
+        padding: 10px 0;
+    }
+
+    .menu-toggle {
+        display: block; 
+    }
+
+    .menu-toggle:focus + .menu {
+        display: flex;
+    }
+
+    .menu li {
+        margin: 10px;
+    }
+
+
+    /* ABOUT MY */
+    .aboutmy{
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .my{
+        position: relative;
+        bottom: 10px;
+        margin-top: 40px;
+        margin-bottom: 40px;
+        left: 0;
+    }
+
+    .text-my{
+        position: relative;
+        bottom: 3vh;
+        margin-right: 20px;
+        margin-top: 40px;
+        margin-bottom: 20px;
+        left: 0; 
+    }
+    /* FIN ABOUT MY */
+
+    /* INIT PROJECTS */
+    .projects{
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .card-body{
+        width: calc(40% - 10px);
+        
+    }
+
+    /* FIN PROJECTS */
+}
