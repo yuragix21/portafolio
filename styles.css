@@ -182,30 +182,7 @@ ul {
     align-items: center;
     background-color: #454B46;
 }
-
-
-
-
-
-
-
 /* FIN PROJECTS */
-
-
-
-
-
-
-
-
-
-
-footer{
-   
-    
-    background-color: brown;
-}
-
 
 /* INIT TECNOLOGIES */
 
@@ -281,6 +258,7 @@ h5{
     align-items: center;
     padding-top: 100px;
     padding-bottom: 100px;
+
    
 }
 
@@ -340,9 +318,24 @@ box-shadow: 3px 3px 12px 0px rgba(0,0,0,0.75);
 box-shadow: 3px 3px 12px 0px rgba(0,0,0,0.75);
 font-weight: 600;
 }
-
-
 /* FIN CONTANCT */
+
+/* INIT FOOTER */
+footer{
+    background-color: rgb(26, 25, 25);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 10px;
+    padding-top: 60px;
+}
+
+.footer{
+    font-size: 25px;
+    font-weight: 600;
+    color: white;
+}
+/* FIN FOOTER */
 
 
 @media screen and (max-width: 768px) {
@@ -432,4 +425,35 @@ font-weight: 600;
     }
 
     /* FIN TECNOLOGIES */
+
+
+    /* INIT CONTANCT */
+    .contanct{
+        padding-top: 40px;
+        padding-bottom: 40px;
+    }
+    .contenido{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .correo{
+        margin-bottom: 20px;
+    }
+
+    .cv{
+        margin-bottom: 20px;
+    }
+
+    .linkdin{
+        margin-bottom: 20px;
+    }
+
+    /* FIN CONTANCT */
+
+    /* INIT FOOTER */
+    .footer{
+        font-size: 15px;
+    }
+    /* FIN FOOTER */
 }
