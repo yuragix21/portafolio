@@ -196,17 +196,9 @@ ul {
 
 
 
-.tecnologies{
-   
-   
-    background-color: blue;
-}
 
-.contanct{
-   
-    
-    background-color: blueviolet;
-}
+
+
 
 footer{
    
@@ -279,13 +271,78 @@ h5{
    padding-bottom: 20px; 
    width: 70%;
 }
-
-
-
-
-
-
 /* FIN TECNOLOGIES */
+
+/* INIT CONTANCT */
+.contanct{
+    background-color: rgb(26, 25, 25);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 100px;
+    padding-bottom: 100px;
+   
+}
+
+.container-contac{
+    width: 100%;
+    height: 30vh;
+   
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 15px;
+    
+} 
+
+.contenido{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+}
+
+.correo{
+    font-size: 20px;
+    font-weight: 600;
+    color: white;
+    -webkit-box-shadow: 3px 3px 12px 0px rgba(0,0,0,0.75);
+-moz-box-shadow: 3px 3px 12px 0px rgba(0,0,0,0.75);
+box-shadow: 3px 3px 12px 0px rgba(0,0,0,0.75);
+}
+
+.cv{
+    font-size: 15px;
+    font-weight: 600;
+    background-color: bisque;
+    width: 15vh;
+    height: 5vh;
+    border-radius: 10px;
+    -webkit-box-shadow: 3px 3px 12px 0px rgba(0,0,0,0.75);
+-moz-box-shadow: 3px 3px 12px 0px rgba(0,0,0,0.75);
+box-shadow: 3px 3px 12px 0px rgba(0,0,0,0.75);
+}
+
+.linkdin{
+    font-size: 20px;
+    -webkit-box-shadow: 3px 3px 12px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 3px 3px 12px 0px rgba(0,0,0,0.75);
+    box-shadow: 3px 3px 12px 0px rgba(0,0,0,0.75);
+    font-weight: 600;
+}
+
+.number{
+    color: white;
+    font-size: 20px;
+    -webkit-box-shadow: 3px 3px 12px 0px rgba(0,0,0,0.75);
+-moz-box-shadow: 3px 3px 12px 0px rgba(0,0,0,0.75);
+box-shadow: 3px 3px 12px 0px rgba(0,0,0,0.75);
+font-weight: 600;
+}
+
+
+/* FIN CONTANCT */
 
 
 @media screen and (max-width: 768px) {
